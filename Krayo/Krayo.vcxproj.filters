@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{9a7c4806-afbd-4bfc-ab60-11b409e6baf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{d1d10cc2-71e9-4769-8b74-b4bda6bfae27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Renderer">
+      <UniqueIdentifier>{48b7cfd8-7113-41a3-adf7-e3a0b9d3f111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Scene">
+      <UniqueIdentifier>{894a4b73-6125-47eb-846d-a58098ae2940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Renderer\LowLevel">
+      <UniqueIdentifier>{5602fe08-e5f5-4356-8c74-d954f72a0f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Renderer\HighLevel">
+      <UniqueIdentifier>{a30f59ff-ef05-432c-961d-a5a14bbbffde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Renderer\LowLevel\Win">
+      <UniqueIdentifier>{5e9902e0-39b8-4c59-b5b4-f3d498ff49c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Krayo">
+      <UniqueIdentifier>{8ced9c46-d1a4-482b-8f52-693919a43513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Math">
+      <UniqueIdentifier>{8f9092da-fa84-4f52-baf1-7dcf2bbb9e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Utils">
+      <UniqueIdentifier>{039bc783-deec-4f45-862d-9509fcebb5eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\Camera.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\Component.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\Emitter.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\Light.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\Material.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\Mesh.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\Model.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\Object.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\Scene.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\HighLevel\DepthPrePass.cpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\HighLevel\ForwardPass.cpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\HighLevel\GridFrustumsGenerator.cpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\HighLevel\LightCuller.cpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\HighLevel\ParticleEngine.cpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\HighLevel\ParticlePass.cpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\HighLevel\Renderer.cpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\HighLevel\ResourceManager.cpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\HighLevel\ShaderMacroDefinitions.cpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\Backbuffer.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\Buffer.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\CommandBuffer.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\Debugger.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\DescriptorAllocator.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\Device.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\Extensions.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\Framebuffer.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\Instance.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\MultiPipeline.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\Pipeline.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\QueueManager.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\RingBuffer.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\Shader.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\Texture.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\Tools.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\Translations.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\Util.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\VertexLayout.cpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer\LowLevel\Win\WinBackbuffer.cpp">
+      <Filter>source\Renderer\LowLevel\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ResourceDir.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Math\Frustum.cpp">
+      <Filter>source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Math\Plane.cpp">
+      <Filter>source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Math\AABB.cpp">
+      <Filter>source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utils\FBXFile.cpp">
+      <Filter>source\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Krayo\ApiDef.hpp">
+      <Filter>include\Krayo</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Prerequisites.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ResourceDir.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Backbuffer.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Buffer.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\CommandBuffer.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Debugger.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\DescriptorAllocator.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Device.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Extensions.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Framebuffer.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Instance.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\MultiPipeline.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Pipeline.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\QueueManager.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\RingBuffer.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Shader.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Texture.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Tools.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Translations.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Types.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Util.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\VertexLayout.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\VkRAII.hpp">
+      <Filter>source\Renderer\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\LowLevel\Win\WinBackbuffer.hpp">
+      <Filter>source\Renderer\LowLevel\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\HighLevel\DepthPrePass.hpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\HighLevel\ForwardPass.hpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\HighLevel\GridFrustumsGenerator.hpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\HighLevel\LightCuller.hpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\HighLevel\ParticleEngine.hpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\HighLevel\ParticlePass.hpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\HighLevel\Renderer.hpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\HighLevel\ResourceManager.hpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer\HighLevel\ShaderMacroDefinitions.hpp">
+      <Filter>source\Renderer\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Math\AABB.hpp">
+      <Filter>source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Math\Frustum.hpp">
+      <Filter>source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Math\Plane.hpp">
+      <Filter>source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utils\FBXFile.hpp">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utils\Traits.hpp">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\Camera.hpp">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\Component.hpp">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\Emitter.hpp">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\Light.hpp">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\Material.hpp">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\Mesh.hpp">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\Model.hpp">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\Object.hpp">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\Scene.hpp">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Krayo\Engine.hpp">
+      <Filter>include\Krayo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

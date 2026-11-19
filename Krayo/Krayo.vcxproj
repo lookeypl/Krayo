@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Main.cpp" />
+    <ClCompile Include="source\Math\AABB.cpp" />
+    <ClCompile Include="source\Math\Frustum.cpp" />
+    <ClCompile Include="source\Math\Plane.cpp" />
+    <ClCompile Include="source\Renderer\HighLevel\DepthPrePass.cpp" />
+    <ClCompile Include="source\Renderer\HighLevel\ForwardPass.cpp" />
+    <ClCompile Include="source\Renderer\HighLevel\GridFrustumsGenerator.cpp" />
+    <ClCompile Include="source\Renderer\HighLevel\LightCuller.cpp" />
+    <ClCompile Include="source\Renderer\HighLevel\ParticleEngine.cpp" />
+    <ClCompile Include="source\Renderer\HighLevel\ParticlePass.cpp" />
+    <ClCompile Include="source\Renderer\HighLevel\Renderer.cpp" />
+    <ClCompile Include="source\Renderer\HighLevel\ResourceManager.cpp" />
+    <ClCompile Include="source\Renderer\HighLevel\ShaderMacroDefinitions.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\Backbuffer.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\Buffer.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\CommandBuffer.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\Debugger.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\DescriptorAllocator.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\Device.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\Extensions.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\Framebuffer.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\Instance.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\MultiPipeline.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\Pipeline.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\QueueManager.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\RingBuffer.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\Shader.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\Texture.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\Tools.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\Translations.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\Util.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\VertexLayout.cpp" />
+    <ClCompile Include="source\Renderer\LowLevel\Win\WinBackbuffer.cpp" />
+    <ClCompile Include="source\ResourceDir.cpp" />
+    <ClCompile Include="source\Scene\Camera.cpp" />
+    <ClCompile Include="source\Scene\Component.cpp" />
+    <ClCompile Include="source\Scene\Emitter.cpp" />
+    <ClCompile Include="source\Scene\Light.cpp" />
+    <ClCompile Include="source\Scene\Material.cpp" />
+    <ClCompile Include="source\Scene\Mesh.cpp" />
+    <ClCompile Include="source\Scene\Model.cpp" />
+    <ClCompile Include="source\Scene\Object.cpp" />
+    <ClCompile Include="source\Scene\Scene.cpp" />
+    <ClCompile Include="source\Utils\FBXFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Krayo\ApiDef.hpp" />
+    <ClInclude Include="include\Krayo\Engine.hpp" />
+    <ClInclude Include="source\Math\AABB.hpp" />
+    <ClInclude Include="source\Math\Frustum.hpp" />
+    <ClInclude Include="source\Math\Plane.hpp" />
+    <ClInclude Include="source\Prerequisites.hpp" />
+    <ClInclude Include="source\Renderer\HighLevel\DepthPrePass.hpp" />
+    <ClInclude Include="source\Renderer\HighLevel\ForwardPass.hpp" />
+    <ClInclude Include="source\Renderer\HighLevel\GridFrustumsGenerator.hpp" />
+    <ClInclude Include="source\Renderer\HighLevel\LightCuller.hpp" />
+    <ClInclude Include="source\Renderer\HighLevel\ParticleEngine.hpp" />
+    <ClInclude Include="source\Renderer\HighLevel\ParticlePass.hpp" />
+    <ClInclude Include="source\Renderer\HighLevel\Renderer.hpp" />
+    <ClInclude Include="source\Renderer\HighLevel\ResourceManager.hpp" />
+    <ClInclude Include="source\Renderer\HighLevel\ShaderMacroDefinitions.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Backbuffer.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Buffer.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\CommandBuffer.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Debugger.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\DescriptorAllocator.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Device.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Extensions.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Framebuffer.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Instance.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\MultiPipeline.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Pipeline.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\QueueManager.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\RingBuffer.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Shader.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Texture.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Tools.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Translations.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Types.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Util.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\VertexLayout.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\VkRAII.hpp" />
+    <ClInclude Include="source\Renderer\LowLevel\Win\WinBackbuffer.hpp" />
+    <ClInclude Include="source\ResourceDir.hpp" />
+    <ClInclude Include="source\Scene\Camera.hpp" />
+    <ClInclude Include="source\Scene\Component.hpp" />
+    <ClInclude Include="source\Scene\Emitter.hpp" />
+    <ClInclude Include="source\Scene\Light.hpp" />
+    <ClInclude Include="source\Scene\Material.hpp" />
+    <ClInclude Include="source\Scene\Mesh.hpp" />
+    <ClInclude Include="source\Scene\Model.hpp" />
+    <ClInclude Include="source\Scene\Object.hpp" />
+    <ClInclude Include="source\Scene\Scene.hpp" />
+    <ClInclude Include="source\Utils\FBXFile.hpp" />
+    <ClInclude Include="source\Utils\Traits.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{911DDC85-6A05-4904-9F6C-3D168B28E3DB}</ProjectGuid>
+    <RootNamespace>Krayo</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Obj\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Obj\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)source\;$(ProjectDir)include\;$(SolutionDir)Deps\lkCommon\lkCommon\include\;$(SolutionDir)Deps\fbxsdk\include\;$(VULKAN_SDK)\Include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NOMINMAX;VK_USE_PLATFORM_WIN32_KHR;VK_NO_PROTOTYPES;KRAYO_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>$(SolutionDir)Deps\fbxsdk\lib\vs2015\$(PlatformShortName)\$(Configuration)\;$(SolutionDir)Deps\Bin\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>lkCommon.lib;libfbxsdk-mt.lib;shaderc.lib;shaderc_util.lib;SPIRV-Tools.lib;SPIRV-Tools-opt.lib;glslangd.lib;HLSLd.lib;OSDependentd.lib;OGLCompilerd.lib;SPIRVd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>"$(SolutionDir)Deps\prepare_deps.bat" $(Platform) $(Configuration)</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)source\;$(ProjectDir)include\;$(SolutionDir)Deps\lkCommon\lkCommon\include\;$(SolutionDir)Deps\fbxsdk\include\;$(VULKAN_SDK)\Include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NOMINMAX;VK_USE_PLATFORM_WIN32_KHR;VK_NO_PROTOTYPES;KRAYO_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>lkCommon.lib;libfbxsdk-mt.lib;shaderc.lib;shaderc_util.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Deps\fbxsdk\lib\vs2015\$(PlatformShortName)\$(Configuration)\;$(SolutionDir)Deps\Bin\$(Platform)\$(Configuration)\;$(VULKAN_SDK)\Lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PreBuildEvent>
+      <Command>"$(SolutionDir)Deps\prepare_deps.bat" $(Platform) $(Configuration)</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <Target Name="AfterClean">
+    <Exec Command="&quot;$(SolutionDir)Deps\prepare_deps.bat&quot; $(Platform) $(Configuration) Clean" />
+  </Target>
+</Project>

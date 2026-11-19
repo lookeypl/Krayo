@@ -1,0 +1,9 @@
+[submodule "Deps/lkCommon"]
+	path = Deps/lkCommon
+	url = https://github.com/lkostyra/lkCommon
+[submodule "Deps/glslang"]
+	path = Deps/glslang
+	url = https://github.com/KhronosGroup/glslang
+[submodule "Deps/shaderc"]
+	path = Deps/shaderc
+	url = https://github.com/google/shaderc

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krayo", "Krayo\Krayo.vcxproj", "{911DDC85-6A05-4904-9F6C-3D168B28E3DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deps", "Deps", "{184D21F7-4C23-492A-B0CD-5054C958C73D}"
+	ProjectSection(SolutionItems) = preProject
+		Deps\CMakeLists.txt = Deps\CMakeLists.txt
+		Deps\prepare_deps.bat = Deps\prepare_deps.bat
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KrayoGame", "KrayoGame\KrayoGame.vcxproj", "{0E7BD129-3AF4-4A84-8696-3461997B408E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{911DDC85-6A05-4904-9F6C-3D168B28E3DB}.Debug|x64.ActiveCfg = Debug|x64
+		{911DDC85-6A05-4904-9F6C-3D168B28E3DB}.Debug|x64.Build.0 = Debug|x64
+		{911DDC85-6A05-4904-9F6C-3D168B28E3DB}.Release|x64.ActiveCfg = Release|x64
+		{911DDC85-6A05-4904-9F6C-3D168B28E3DB}.Release|x64.Build.0 = Release|x64
+		{0E7BD129-3AF4-4A84-8696-3461997B408E}.Debug|x64.ActiveCfg = Debug|x64
+		{0E7BD129-3AF4-4A84-8696-3461997B408E}.Debug|x64.Build.0 = Debug|x64
+		{0E7BD129-3AF4-4A84-8696-3461997B408E}.Release|x64.ActiveCfg = Release|x64
+		{0E7BD129-3AF4-4A84-8696-3461997B408E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {111DE834-D42A-4602-B0ED-2F128FA1BB55}
+	EndGlobalSection
+EndGlobal
